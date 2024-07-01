@@ -16,8 +16,6 @@ pragma solidity 0.8.18;
 */
 
 contract MyToken {
-
-    // public variables here
     string public  token_name="meta" ;
     string public token_abbrv="MTA";
     uint public total_supply=0;
