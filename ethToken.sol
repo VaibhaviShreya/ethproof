@@ -24,7 +24,6 @@ contract MyToken {
 
     // mapping variable here
     mapping (address=>uint)public balances;
-    // mint function
    function mint (address _address, uint _value) public {
     total_supply += _value;
     balances[_address] += _value;
